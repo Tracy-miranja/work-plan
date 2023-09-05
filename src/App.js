@@ -1,6 +1,6 @@
 
 import './App.css';
-import Greet from './components/greet';
+import Greet from './components/Greet.js';
 
 function App() {
   return (
