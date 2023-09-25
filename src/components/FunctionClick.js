@@ -1,4 +1,5 @@
-import React from 'react'
+const React = require('react');
+
 
 function FunctionClick() {
      function clickHandler(){

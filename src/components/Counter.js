@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, { Component } from 'react'
 
 class Counter extends Component {
 
@@ -26,7 +26,7 @@ class Counter extends Component {
                 }, () =>{
                     console.log('callback value', this.state.count)
                 });
-                return '';
+                return this.setState
             }
     }
 
